@@ -1,0 +1,38 @@
+
+
+
+html{overflow-x: hidden;display: block; } body {color: gold; font-size: 64px; background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  
+  line-height: 2.0;
+    
+}
+
+<style>
+
+background{min-height: 100%;max-width: 800px
+        min-width: 800px;width: 100%;left: 50%;
+                margin-left: -400px; 
+        height: auto;position: fixed;
+        top: 0;
+        left: 0;}
+::-webkit-scrollbar {
+      width: 15px;
+}::-webkit-scrollbar-track {
+      background-color: gray;
+} ::-webkit-scrollbar-thumb {
+      background-color: rgba(60, 80, 50, 35);
+} -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    height:20px;
+    width:25px;
+.container{font-family: monospace, fantasy; font-weight: bolder;}
+h2{ color: red}
+li a{color: blue}
+p a{color: blue}
+</style>
