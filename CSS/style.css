@@ -15,19 +15,6 @@ heading{background-color: black; background-size:contain;  display:grid; text-al
 <style> 
 
 
-::-webkit-scrollbar {
- width: 15px; 
-}::-webkit-scrollbar-track {
-      background-color: gray;
-} ::-webkit-scrollbar-thumb {
-      background-color: rgba(60, 80, 50, 35);
-} -webkit-transform: rotate(-90deg); 
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    height:20px;
-    width:15px;
 
 .container{font-family: monospace, fantasy; font-weight: bolder;}
 h2{ color: red; background-clip: inherit; background-color: black; background-size:auto;}
