@@ -18,18 +18,19 @@ Your browser does not support the audio element.
 <div class="container">
     <div>
     <heading>
+        <!--canvas element for heading-->
   <th><a href="index.html"><canvas id="myCanvas" width="300" height="200"
 style="border:5px solid #d3d3d3;">
 Your browser does not support the canvas element.
 </canvas></a>
 
-<script>
+<script> /**javascript for canvas*/
 var canvas = document.getElementById("myCanvas");
 var ctx=canvas.getContext("2d");
 ctx.font="30px Comic Sans MS";
 ctx.fillStyle = "red";
 ctx.textAlign = "center";
-ctx.fillText("Eduardo Diaz Suarez", canvas.width/2, canvas.height/2);
+ctx.fillText("Eduardo Diaz Suarez", canvas.width/2, canvas.height/2);//text for canvas
 </script>
 </th>
   </heading>
@@ -43,29 +44,29 @@ ctx.fillText("Eduardo Diaz Suarez", canvas.width/2, canvas.height/2);
    </div>
   <div id="About Me";>
     <h2>About Me 
-    <h4>|<a href="index.html">Eduardo Diaz Suarez</a>|<!--navigators-->
+    <h4>|<a href="index.html">Eduardo Diaz Suarez</a>|<!--skipped heading level for better look and made redundant links for better navigation-->
     |<a href="#Skills">Skills</a>|
     |<a href="#External profiles">External profiles</a>|
         </h4>
 </h2>
     <p>I am Eduardo, I live in Lehigh Acres. My degree is software engineering and my dream is to have my own tech corporation.
       </p>
-      
-     
-   <a href="https://scratch.mit.edu/projects/281833704/"; target="_blank"><img src=Media/Untitled.png width=300px height=300px alt="Featured scratch project: Module D hard core fighter 2080 beta"></a><!--image and link to scratch-->
-      <p>Featured scratch project: 
+       <h3>Featured scratch project: 
           
           <a href="https://scratch.mit.edu/projects/281833704/"; target="_blank">
-              Module D hard core fighter 2080 beta</a></p><!--link to scratch-->
+              Module D hard core fighter 2080 beta</a></h3><!--link to scratch-->
+     
+   <a href="https://scratch.mit.edu/projects/281833704/"; target="_blank"><img src=Media/Untitled.png width=300px height=300px alt="Featured scratch project: Module D hard core fighter 2080 beta"></a><!--image and link to scratch-->
+     
       
-     <p>Favorite videogame:</p>
+     <h3>Favorite videogame:</h3>
       <video width="320" height="240" controls>
   <source src="Media/DOTA%202%20-%20Official%20Trailer%20(Mac,%20PC).mp4" type="video/mp4">
   <!--video-->
 Your browser does not support the video tag.
 </video>
       <p>
-      <a href="Media/report.pdf" target="_blank"><!--report-->
+      <a href="Media/report.pdf" target="_blank"><!--link to pdf is svg element-->
     <svg width="400" height="75">
   <rect width="400" height="75" 
   style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" /><text fill="yellow"; font-size="45" font-family="Verdana" x="10" y="50">Field Report PDF</text>
@@ -74,7 +75,7 @@ Sorry, your browser does not support inline SVG.
     </div>
   <div id="Skills">
       <h2>Skills
-      <h4>|<a href="index.html">Eduardo Diaz Suarez</a>|<!--navigators-->
+      <h4>|<a href="index.html">Eduardo Diaz Suarez</a>|<!--skipped heading level for better look and made redundant links for better navigation-->
           |<a href="#About Me">About Me</a>|
 
     |<a href="#External profiles">External profiles</a>|
@@ -88,7 +89,7 @@ Sorry, your browser does not support inline SVG.
   </div>
     <div id="External profiles">
     <h2>External profiles
-        <h4>|<a href="index.html">Eduardo Diaz Suarez</a>|<!--navigators-->
+        <h4>|<a href="index.html">Eduardo Diaz Suarez</a>|<!--skipped heading level for better look and made redundant links for better navigation-->
             |<a href="#About Me">About Me</a>|
     |<a href="#Skills">Skills</a>|
     
