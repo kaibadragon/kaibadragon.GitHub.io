@@ -326,23 +326,23 @@
             <form>
                 <fieldset data-role="controlgroup" style="min-width:200px">
                     <legend style="color:white">Caesar Cipher:</legend>
-                    <label>Characters
-                    <select name="alpha-choice" id="alpha-choice" onchange="chooseAlphabet()">
+                    <label>Choose alphabet
+                    <select name="alpha-choice" id="alpha-choice" onchange="chooseAlphabet()"> 
                         <option selected="" id="alpha-standard" value="abcdefghijklmnopqrstuvwxyz">English normal</option>
                         <option id="alpha-punctuation" value=" .,?!abcdefghijklmnopqrstuvwxyz">With common punctuations</option>
                         <option id="alpha-numbers" value="abcdefghijklmnopqrstuvwxyz0123456789">With numbers</option>
                         <option id="alpha-all" value=" .,?!abcdefghijklmnopqrstuvwxyz0123456789">With common punctuations and numbers</option>
                         <option id="alpha-own" value="">Custom</option>
                     </select></label>
-                    <br><label>
+                    <br><label>Characters
                     <input id="alphabet" value="abcdefghijklmnopqrstuvwxyz" style="width:350px;max-width:100%"></label><br><br>
                     <label>Key:
                     <input id="key" type="number" value="0" min="-52" max="52" onchange="keyChange()" style="width:50px;max-width:100%"></label>
                 </fieldset>
                 <fieldset data-role="controlgroup">
-                    <legend style="color:white">Readable text:</legend>
+                    
                     <div style="display:inline-block;width:70%;min-width:200px">
-                        <label>write here
+                        <label>Decrypted text here
                         <textarea id="plaintext" style="width:100%" rows="5"></textarea></label>
                     </div>
                     <div style="display:inline-block;vertical-align:top">
@@ -351,8 +351,9 @@
                     </div>
                 </fieldset>
                 <fieldset data-role="controlgroup">
-                    <legend style="color:white">Encrypted text:</legend>
+                    
                     <div style="display:inline-block;width:70%;min-width:200px">
+                        <label>Encrypted text here</label>
                         <textarea id="ciphertext" style="width:100%" rows="5"></textarea>
                     </div>
                     <div style="display:inline-block;vertical-align:top">
