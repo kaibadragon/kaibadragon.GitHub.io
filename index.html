@@ -326,6 +326,7 @@
             <form>
                 <fieldset data-role="controlgroup" style="min-width:200px">
                     <legend style="color:white">Caesar Cipher:</legend>
+                    <label>Characters</label>
                     <select name="alpha-choice" id="alpha-choice" onchange="chooseAlphabet()">
                         <option selected="" id="alpha-standard" value="abcdefghijklmnopqrstuvwxyz">English normal</option>
                         <option id="alpha-punctuation" value=" .,?!abcdefghijklmnopqrstuvwxyz">With common punctuations</option>
@@ -335,8 +336,8 @@
                     </select>
                     <br>
                     <input id="alphabet" value="abcdefghijklmnopqrstuvwxyz" style="width:350px;max-width:100%"><br><br>
-                    <label>Key:</label>
-                    <input id="key" type="number" value="0" min="-52" max="52" onchange="keyChange()" style="width:50px;max-width:100%">
+                    <label>Key:
+                    <input id="key" type="number" value="0" min="-52" max="52" onchange="keyChange()" style="width:50px;max-width:100%"></label>
                 </fieldset>
                 <fieldset data-role="controlgroup">
                     <legend style="color:white">Readable text:</legend>
